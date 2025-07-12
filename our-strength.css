@@ -1,0 +1,245 @@
+
+.image
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    left: 43%;
+    cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #007e30;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn 
+{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #007e30;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 9999;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: red;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Page Body */
+
+.bg-image 
+{
+  background-image: url(photo/digital\ background.gif);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+
+.overlay2 {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+.content {
+position: relative;
+z-index: 1;
+}
+
+.card
+{
+  position: relative;
+  background-color: #ffffff;
+  border: 2px #999797;
+  border-radius: 5px;
+  padding: 20px;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  top: 3%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  color: #111;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card2
+{
+  position: relative;
+  background-color: #ffffff;
+  border: 2px #999797;
+  border-radius: 5px;
+  padding: 20px;
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  top: 3%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  color: #111;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.card, .card2
+{
+  position: relative;
+  z-index: 1;
+}
+
+h2
+{
+  margin-top: 0%;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+
+p
+{
+  color: #111;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+/* Footer Design */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 10px 10px;
+}
+
+.footer-text
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+    height: 15px;
+}
+
+.social-icons a.f:hover {
+    background: #1877F2;
+    color: white;
+}
+.social-icons a.i:hover {
+    background: linear-gradient(#405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FCB645, #FFDC80);
+    color: white;
+}
+.social-icons a.x:hover {
+    background: black;
+    color: white;
+}
+.social-icons a.g:hover {
+    background: linear-gradient(#4285F4, #DB4437, #F4B400, #0F9D58);
+    color: white;
+}
+.social-icons a.yt:hover {
+    background: red;
+    color: white;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    align-content: center;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    text-align: center;
+}
+
+.footer p span {
+    font-weight: bold;
+    color: white;
+}
